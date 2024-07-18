@@ -1,4 +1,4 @@
-﻿namespace IfElsePractice;
+namespace IfElsePractice;
 class Program
 {
     static void Main(string[] args)
@@ -9,7 +9,11 @@ class Program
         {
             Console.WriteLine("Sayi ondan buyuktur.");
         }
-        else
+        if (sayi == 10)
+        {
+            Console.WriteLine("Sayi ona esittir.");
+        }
+        if (sayi<10)
         {
             Console.WriteLine("Sayi ondan kucuktur.");
         }
